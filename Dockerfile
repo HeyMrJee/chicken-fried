@@ -21,4 +21,5 @@ RUN gem install kitchen-terraform --version 5.1.1 --no-rdoc --no-ri
 RUN gem install awspec --version 1.18.1 --no-rdoc --no-ri
 RUN gem install kitchen-verifier-awspec --version 0.2.0 --no-rdoc --no-ri
 ENV LANG en_US.UTF-8
+
 ENV LANGUAGE en_US:en
